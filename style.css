@@ -1,0 +1,264 @@
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v13-latin-regular.woff2') format('woff2'), 
+         url('../fonts/inter-v13-latin-regular.woff') format('woff'), 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v13-latin-500.woff2') format('woff2'), 
+         url('../fonts/inter-v13-latin-500.woff') format('woff'),
+  }
+  
+  @font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v13-latin-600.eot'),
+         url('../fonts/inter-v13-latin-600.woff2') format('woff2'), 
+         url('../fonts/inter-v13-latin-600.woff') format('woff'), 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v13-latin-700.eot'),
+         url('../fonts/inter-v13-latin-700.woff2') format('woff2'), 
+         url('../fonts/inter-v13-latin-700.woff') format('woff'), 
+  }
+
+
+
+* {
+    box-sizing: border-box;
+    text-decoration-line: none;
+}
+
+body {
+    font-family: 'Inter';
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+.list-unstyled {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    clip-path: rect(0 0 0 0);
+}
+
+/* header section starts  */
+
+.site-header {
+    background-color: #000;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-item-link {
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    color: #FFF;
+}
+
+.header-item-link:hover {
+    color: #F78B3B;
+}
+
+.header-item-link:active {
+    color: rgba(247, 139, 59, 0.80);
+}
+
+/* hero section starts  */
+
+.hero-section {
+    padding-bottom: 105px;
+}
+
+.hero-main-heading {
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 93px; 
+    width: 743px;
+    margin: 0 auto;
+    padding: 114px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.title-wrapper {
+    margin: 50px 0;
+    background-image: url('/images/beautiful-emerald-lake-yoho-national-park-british-columbia-canada_131985-177\ 1.png');
+}
+
+.hero-box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-box-heading {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: -6px;
+    color: #000;
+}
+
+.hero-box-definition {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px; 
+    text-align: center;
+    opacity: 0.6;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.ocean-image {
+    width: 1240px;
+    height: 500px;
+    background-image: url('/images/Rectangle\ 30.png');
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center; 
+    margin-top: 43px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.unsplash-content-heading {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.unsplash-content-definition {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    color: #000;
+}
+
+/* footer section starts  */
+
+.site-footer {
+    padding: 80px 0;
+    background-color: #282829;
+}
+
+.footer-box-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+} 
+
+.footer-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+.footer-list-icons {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.footer-nav-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+    color: #FFF;
+}
+
+.footer-nav-link:hover {
+    color: #F78B3B;
+}
+
+.footer-nav-link:active {
+    color: rgba(247, 139, 59, 0.80);
+}
+
+.copywright-issues {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    opacity: 0.3;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
